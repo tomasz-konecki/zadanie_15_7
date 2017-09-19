@@ -1,12 +1,12 @@
-const btnAttribs = {'button', 'start', 'stop', 'reset'};
+const btnAttribs = ['button', 'start', 'stop', 'reset'];
 
-const App = React.createClass ({
+class App extends React.Component {
     render() {
         return (
             <div className={'app'}>
                 <Controls attribs={btnAttribs} />
-                <Stopwatch />
+                <Timer />
             </div>
         )
     }
-});
+};
