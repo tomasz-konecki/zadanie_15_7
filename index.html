@@ -6,20 +6,29 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <section class="timer">
+
+    <div id="app"></div>
+
+
+<!--
+    <div class="app">
       <nav class="controls">
         <a href="#" class="button" id="start">Start</a>
         <a href="#" class="button" id="stop">Stop</a>
         <a href="#" class="button" id="reset">Reset</a>
       </nav>
       <div class="stopwatch"></div>
-    </section>
-    <ul class="results"></ul>
+    </div>
+-->
 
     <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
     <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <!--<script type="text/babel" src="components/Stopwatch.js"></script>-->
+    <script type="text/babel" src="components/Controls.js"></script>
+    <script type="text/babel" src="components/App.js"></script>
 
-    <script type="text/babel" src="js/script.js"></script>
+    <script type="text/babel" src="js/script_react.js"></script>
   </body>
 </html>
