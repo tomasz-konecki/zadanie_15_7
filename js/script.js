@@ -2,10 +2,10 @@
 
 class Controls extends React.Component {
     
-    propTypes: {
+    static propTypes = {
         attribs: React.PropTypes.array.isRequired
-    };
-    
+    }
+
     render() {
         return (
             <nav className={'controls'}>
