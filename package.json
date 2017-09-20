@@ -17,7 +17,7 @@
     "url": "https://github.com/tomasz-konecki/zadanie_15_7/issues"
   },
   "homepage": "https://github.com/tomasz-konecki/zadanie_15_7#readme",
-  "devDependencies": {
+  "dependencies": {
     "http-server": "^0.10.0"
   }
 }

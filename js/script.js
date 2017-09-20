@@ -1,7 +1,6 @@
 // ----- Controls -----
 
 class Controls extends React.Component {
-    
     static propTypes = {
         attribs: React.PropTypes.array.isRequired
     }
