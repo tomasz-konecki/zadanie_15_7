@@ -109,9 +109,9 @@ class Stopwatch extends React.Component {
     render() {
         const formatedTime = this.format(this.state.times);
         const buttons = [
-            {id: "start", text: "Start", action: this.start},
-            {id: "stop", text: "Stop", action: this.stop},
-            {id: "reset", text: "Reset", action: this.reset}
+            {id: "start", text: "Start", action: this.start.bind(this)},
+            {id: "stop", text: "Stop", action: this.stop.bind(this)},
+            {id: "reset", text: "Reset", action: this.reset.bind(this)}
         ]
         return (
             <div>
