@@ -1,7 +1,7 @@
 {
   "name": "zadanie_15_7",
   "version": "1.0.0",
-  "description": "Stoper /ES6/",
+  "description": "Stoper ES6",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,13 +11,16 @@
     "type": "git",
     "url": "git+https://github.com/tomasz-konecki/zadanie_15_7.git"
   },
-  "author": "Tomek",
+  "author": "TK",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tomasz-konecki/zadanie_15_7/issues"
   },
   "homepage": "https://github.com/tomasz-konecki/zadanie_15_7#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-standalone": "^6.26.0",
     "http-server": "^0.10.0"
   }
 }
