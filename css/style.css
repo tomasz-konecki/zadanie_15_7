@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-color: #548aa5;
+    font-family: 'Montserrat', sans-serif;
+}
+.app {
+    background-color: #2f5f77;
+    width: 400px;
+    margin: 40px auto;
+}
+.controls {
+    padding: 10px;
+}
+.buttons {
+    text-decoration: none;
+    color: lightgray;
+    background-color: #3e4e56;
+    font-variant: small-caps;
+    font-size: 12px;
+    padding: 0 20px;
+    margin-right: 10px;
+    border: 1px solid lightgray;
+}
+.stopwatch {
+    background-color: #22485b;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+.controls,
+.stopwatch {
+    text-align: center;
+}
