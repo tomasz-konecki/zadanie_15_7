@@ -11,7 +11,7 @@ class Controls extends React.Component {
             <nav className="controls">
                 {this.props.buttons.map((button, index) => {
                         return (
-                            <a href={'#'} onClick={() => button.action()} className={this.props.className} id={button.id} key={index}>{button.text}</a>
+                            <a href={'#'} onClick={() => button.action()} className={this.props.className} key={index}>{button.text}</a>
                         )
                 })}
             </nav>
@@ -109,9 +109,9 @@ class Stopwatch extends React.Component {
     render() {
         const formatedTime = this.format(this.state.times);
         const buttons = [
-            {id: "start", text: "Start", action: this.start.bind(this)},
-            {id: "stop", text: "Stop", action: this.stop.bind(this)},
-            {id: "reset", text: "Reset", action: this.reset.bind(this)}
+            {text: "Start", action: this.start.bind(this)},
+            {text: "Stop", action: this.stop.bind(this)},
+            {text: "Reset", action: this.reset.bind(this)}
         ]
         return (
             <div>
